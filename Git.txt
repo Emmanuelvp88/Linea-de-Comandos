@@ -1,6 +1,6 @@
 
 
--------Estos comandos devemos utilizar para sincronizar un repo local con archivos ya echos, con un repo remoto.-------
+-------Estos comandos que debemos utilizar para sincronizar un repo local con archivos ya hechos, con un repo remoto.-------
 
 -.git init   //inicializamos un repo
 
@@ -16,6 +16,7 @@
 
 -.git push -u origin main  //Empujamos los cambios ya agregados y commiteados al repositorio remoto.
 
+-.git remote -v //Nos muestra el nombre del repositorio remoto con el que esta sincronizado nuestro repo local.
 
 
 ----------Comandos basicos en Git------------
@@ -38,9 +39,6 @@
 -.git checkout -b "nombre de rama" //Creamos una rama y al mismo tiempo cambiamos a ella.
 
 -.git push --set-upstream origin "nombre de rama nueva"  //Subimos una nueva rama al repositorio remoto.
-
-
-
 
 -.git checkout "nombre de rama"  //Cabiamos de rama, nos movemos de rama.
 
@@ -99,7 +97,7 @@
 
 ATENCION: Si utilizamos el comando (GIT RESET) y borramos un commit que alguien mas hizo o que se encuantre en otra rama nos meteremos en problemas al querer sincronizar nuestros repositorios remotos por que su repositorio  estarán adelantados con ese commit
 
----------------errores en Git-----------------
+---------------Errores en Git-----------------
 -.Este error se soluciona con el siguiente comando, cuando no nos deja hacer un pull normal.
 
 ERROR:  $ git pull
