@@ -2,11 +2,11 @@
 
 -------Estos comandos devemos utilizar para sincronizar un repo local con archivos ya echos, con un repo remoto.-------
 
--.git init   //nicializamos un repo
+-.git init   //inicializamos un repo
 
 -.git status  //Vemos el estatus del repo
 
--.git add .  //Agregamos todos los cambios echos a los archivos o archivos nuevos añididos lo subimos a StagingArea.
+-.git add .  //Agregamos todos los cambios hechos a los archivos o archivos nuevos añadidos lo subimos a StagingArea.
 
 -.git commit -m "mensaje"  //Mandamos un commit con un mensaje Referencial de lo que queremos subir.
 
