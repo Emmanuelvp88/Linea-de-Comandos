@@ -1,0 +1,24 @@
+**************Los comandos que te van a ayudar a recuperar la conexión WiFi****************
+
+0.1.-  Lo primero, lógicamente, es hacernos con una conexión a Internet temporal,
+      ya sea por cable o por USB WiFi, porque necesitaremos descargar de los repositorios de Ubuntu.
+
+1.- El siguiente paso es abrir una ventana de Terminal: (Ctrl + Alt + T)
+
+2.- Para darnos permisos de superusuario tecleamos: sudo su
+
+3.- A continuación, vamos a hacer una consulta de la Configuración de Red del ordenador.
+    Para ello tecleamos: ifconfig    NOTA: si nos detecta como "No Fount" sigamos la recomendacion qu enos da.
+
+4.- El siguiente paso será solicitar una actualización del Sistema Operativo,
+    sin variar de versión. Para ello, teclearemos: sudo apt-get update
+
+5.- A continuación, vamos a eliminar un paquete del Kernel obsoleto y que posteriormente sustituiremos
+    por otro que sí reconocerá nuestra tarjeta de red y, con ello, dotará de WiFi a nuestro equipo.
+    Para ello, invocaremos: sudo apt-get remove bcmwl-kernel-source
+    Esperamos a que el Sistema realice esa eliminación.
+
+6.- Penúltimo paso, instalar el paquete que sí necesitamos: sudo apt-get install firmware-b43-installer
+    Y… ¡listo!, con un sencillo sudo reboot el equipo se reiniciará y ya podemos retirar nuestro cable
+    de red o el USB WiFi que habíamos utilizado, porque en cuanto el PC se haya reiniciado
+    reconocerá nuestra tarjeta red y se activará la WiFi de la que carecíamos hace unos momentos.

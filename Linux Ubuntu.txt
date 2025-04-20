@@ -1,0 +1,70 @@
+         	
+
+			  *************Comandos basicos para linux**************
+
+				-----------Que es "Apt" y "Aptitude"---------
+
+Apt (Advanced Packaging Tool) se utiliza básicamente para la instalación y desinstalación de paquetes en GNU/Linux.
+Los que usamos Debian y derivados, lo usamos normalmente, aunque también podemos usar Aptitude.
+
+                   		    -----------Aptitude.---------
+Se dice que Aptitude es una versión mejorada de Apt y gestiona mucho mejor las dependencias de los paquetes y que incluso, es recomendado por Debian. Aptitude incluye muchas más opciones que Apt, veamos las más usadas y su descripción según la ayuda de aptitude.
+
+install : Instalar uno o más paquetes. Los paquetes deben aparecer después de la orden “install”.
+
+remove, purge, hold, unhold, keep, reinstall : Estas órdenes realizan lo mismo que “install”, pero en este caso la acción nombrada afectaría a todos aquellos paquetes en la línea de órdenes que no la invaliden.
+
+update : Actualizar la lista de paquetes disponibles desde las fuentes de apt (equivale a “apt-get update”).
+safe-upgrade : Actualizar los paquetes instalados a su versión más reciente. Los paquetes instalados se eliminarán a menos que no se usen.
+
+full-upgrade : Actualizar paquetes instalados a su versión más reciente, instalando o eliminando paquetes si es necesario. Esta orden es menos conservadora que safe-upgrade, y por ello más proclive a ejecutar acciones no deseadas. Sin embargo, es capaz de actualizar paquetes que safe-upgrade es incapaz de actualizar. Por razones históricas, la orden se llamaba originalmente dist-upgrade, y aptitude aún reconoce dist-upgrade como sinónimo de full-upgrade.
+
+search : Buscar paquetes que coincidan con uno de los patrones introducidos en la línea de órdenes.
+
+show : Mostrar información detallada relativa a uno o más paquetes, listados de acuerdo a la orden «search».
+
+Para ver más información sobre aptitude y sus opciones, podemos recurrir a una de las mejores formas de encontrar ayuda, poniendo en consola:
+$ man aptitude
+
+
+		                          --------APT---------
+
+Para cumplir con sus funciones, el comando APT Linux utiliza una serie de herramientas, tales como apt-get, que funciona como el gestor de paquetes más antiguas del sistema Debian. Así pues, algunos ejemplos del uso de la herramienta APT-get pueden ser:
+
+apt-get install {package} : funciona para instalar programas o paquetes.
+apt-get reinstall {package} : cumple la función de reinstalar un paquete completo desde cero, en caso de que este presente algún problema en su funcionamiento.
+apt-get update {package} : comando diseñado para actualizar los paquetes del sistema.
+apt-get remove {package} : se encarga de eliminar los paquetes instalados, pero deja sus archivos de configuración.
+apt-get remove -purge {package} : este comando remueve por completo un programa o paquete, incluyendo también, sus archivos de configuración asociados.
+apt-get update: usado para actualizar los paquetes.
+apt-get upgrade: funciona para actualizar el sistema de Linux, incluyendo los paquetes de seguridad.
+apt-get dist-upgrade: encargado de actualizar las distribuciones de Linux.
+El comando APT, también cuenta con otras herramientas que le facilitan la ejecución de ordenes y el cumplimiento de sus funciones, como por ejemplo:
+
+apt-cache search {package} : la ejecución de este elemento cumplirá la función de buscar elementos a través del nombre del paquete.
+apt list: esta herramienta te permite ver un lista de los paquetes y actualizaciones disponibles en la opción de Linux APT.
+apt show: este comando cumple la función de mostrar los detalles de alguno de los paquetes APT Linux en concreto.
+apt shows rc: con esta herramienta se cumple la función de mostrar detalles de los paquetes fuentes de los repositorios del sistema
+apt autoremove: este elemento funciona para eliminar las dependencias del sistema que no sean necesarias.
+apt edit-sources : su función es la de permitir ver y editar la lista de software.
+apt satisfy {package} : este comando se encarga de recuperar y satisfacer dependencias.
+Cabe resaltar, que un gran número de estos comandos necesitarán de la compañía del comando ¨SUDO¨ para poder funcionar con efectividad.
+
+
+En el caso de Apt, se hace uso mediante los comandos: apt-cache, apt-get, apt.conf, apt_preferences, apt-secure, siendo los 2 primeros los más utilizados. Las opciones que incluye son las siguientes:
+
+update : update se usa para sincronizar el índice de paquetes desde sus fuentes.
+
+upgrade : upgrade se usa para instalar la versión más nueva de todos los paquetes instalados en el sistema provenientes de alguna de las fuentes listadas en /etc/apt/sources.list.
+
+dist-upgrade : Además de realizar las acciones de upgrade, trata inteligentemente los cambios de dependencias debidos a las nuevas versiones de paquetes.  apt-get tiene un sistema «inteligente» de resolución de conflictos, y si es necesario tratará de actualizar los paquetes más importantes a costa de los menos importantes.
+
+install : Instala o actualiza los paquetes que siguen a la palabra «install».
+
+remove :  Se comporta del mismo modo que install con la diferencia de que 
+elimina los paquetes en vez de instalarlos. Tenga en cuenta que al eliminar un paquete sus ficheros de configuración se quedan en el sistema. Si un signo de suma precede al nombre del paquete (sin ningún espacio en blanco entre los dos), el paquete en cuestión será instalado en vez de eliminado.
+
+purge:   Es idéntico a remove, con la diferencia de que los paquetes se eliminarán y purgarán (se eliminará también cualquier fichero de configuración).
+
+Para ver más información sobre aptitude y sus opciones, podemos recurrir a una de las mejores formas de encontrar ayuda, poniendo en consola:
+$ man apt-get.

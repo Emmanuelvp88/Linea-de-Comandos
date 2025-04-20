@@ -1,0 +1,51 @@
+  **************************Comandos esenciales en Terminal, Linea de comando************
+
+
+
+cd --(Chanage Directory) Cambiar de directorio :~cd Documents
+
+cd .. --Regresamos una carpeta atras
+
+cd ~ --Regresamos directamente a la carpeta raiz User 
+
+pwd --Muestra la ruta en donde estamos posicionados
+
+ls --Enlista todo el contenido de la carpeta en donde estamos posicionados
+
+ls -all --Mustra  a detalle todo el contenido de la carpeta en donde estamos posicionados
+
+ls -l  --Nos muestra el contenido de la carpeta donde estamos pero mostrando directorios y rutas.
+
+ls -a --Visualizamos archivos ocultos en la carpeta que esatamos posicionados.
+
+clear --Limpiamos consola.
+
+mkdir  / (Make Directory) crear una carpeta o directorio.
+
+touch  / Creamos archivos con cualquier extencion.
+
+rmdir / (remove directory) borra solo carpetas o directorios vacio. 
+
+rm -r / (remove recursive) borra carpetas o directorios con contenido.
+
+rm -f -r / removemos forsizamente y recursivamente un directorio o cualquier archivo
+
+cat  / Sirve para leer un archivo de texto plano.
+
+more  / Sirve tambien para leer el contenido de un archivo de texto plano.
+
+man / Normaliza la busqueda y nos da el manual de todo lo que puede llegar hacer.
+
+nano, vi, vim "Archivo.txt"  --Permiten editar el archivo y si no existe el archivo que buscaste al cerrarlo te lo crea.
+
+mv -r -f / Mover y renombra carpeta y archivos o carpetas con archivos.
+
+cp --Para copiar archivos de una carpeta a otra :~ cp archivo.txt ../carpeta2/
+
+
+
+
+
+
+
+%%%!!!Recuerden escribir los comando en minúsculas para que funcionen correctamente

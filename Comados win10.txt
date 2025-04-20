@@ -1,0 +1,16 @@
+Comando para volver activar en windows el "Home" o tecla de inicio, cuando daz click y no desplaga nada.
+
+
+1.- paso: Accedemos a Adnministrador de taras, y vamos a " Archivo -Ejecutar nueva tareas" ingrasamos "PowerShell"
+Activamos la casilla "Crear esta tarea Con privilegios administrativos" Aceptamos.
+
+2.- En "PowerShell" ingresamos "chkdsk c: /f" y le damos enter ingrasmos la letra "S"
+despues reiniciamos con "F4" y el sistema se reiniciara en modo de examinacion
+
+3.- repetimos el paso 1. ya estando en powerShell ejecutamos el comando "sfc /scannow" y pulsamos enter, automaticamente 
+empezara un escaneo para encontar errores en el sistema.
+
+4.- y ahora ai mismo ejecutamos "dism /online /cleanup-image /restorehealth" y damos enter. dara comienzo el scanneo de restauracion.
+ 
+5.- por ultimo ejecutamos la siguiente linea de codigo: Get-AppxPackage | % { Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppxManifest.xml" -verbose}
+ comenzara la reparacion debera de salir en letras amarillas, despues de que termine solo damos el comando "Exit" para salir de powerShell.

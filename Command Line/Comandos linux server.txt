@@ -1,0 +1,23 @@
+                   ---------------------    Comandos Linux server    --------------------
+
+
+
+1.- ls: te mustra listado de archivos de un directorio.
+	ls -alh:  la "a" significa que tambien te mostrara los archivos ocultos de ese directorio.
+	"l" te los mustra listados, "h" te mustra tambien el tamaño de los archivos.
+	los archivos ocualtso te los muestar con un punto adelante y los directorios te los muestra 
+	con una D al principio y de color azul.
+
+2.- cp: sirve para copiar archivos o directorios.
+	cp archivo.txt archivo.txt1: Sirve para copiar un archivo en un mismo directorio.
+	cp archivo.txt Directorio/: Copia el archivo al directorio que se pone ensegida.
+	cp -a Directorio1/ Directorio2/: Copia recursivamente un directorio a otro.
+
+3.- mv: Sirve para mover archivos o directoios.
+	mv archivo.txt Directorio1/: Mueve el archivo del directorio en donde estoy al directorio que se pone enseguida.
+	mv Directrio1/ Directorio2/: Mueve un directorio dentro de otro directorio "r":recursivamente "forsozamente".
+
+4.- rm: Sirve para borar archivos y directorios.
+	rm Directorio1/ archivo.txt: Borramos un archivo dentro de un directorio
+	rm -rf  Directorio1/
+	
