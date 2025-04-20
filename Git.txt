@@ -110,8 +110,6 @@ ERROR:  $ git pull
 SOLUCION: git pull origin master --allow-unrelated-histories
 
 
-
-
 -.Ese error significa que el rebase se rompió o quedó en un estado extraño, posiblemente por algún error anterior o por haber modificado archivos internos de Git sin querer.
 
 
@@ -125,5 +123,50 @@ Luego verifica que todo esté bien: git status
 Si todo está claro, puedes intentar de nuevo el rebase o hacer git pull normal (sin rebase): git pull origin main
 
 
+-. Hay varias razones por las que los commits que subes a GitHub no aparecen en tu gráfico de contribuciones (el de los cuadritos verdes).
+
+ERROR: Los commits no se reflejan en el gráfico de contribuciones en los cuadritos verdes
+
+SOLUCION:  Tu correo en los commits no coincide con el de tu cuenta de GitHub
+GitHub solo cuenta los commits si el correo que usaste para hacerlos está asociado a tu cuenta.
+
+Para revisar qué correo estás usando en Git, corre esto: git config user.email
+posterior chekcar que coincidan con el de los commit: git log
+
+Si ese correo no es el mismo que tienes en tu perfil de GitHub, los commits no contarán como tuyos.
+
+Asegúrate de que esté bien configurado: git config --global user.email "tucorreo@ejemplo.com"
+
+Ese correo debe estar en tu cuenta de GitHub (puedes agregarlo en tu configuración de emails).
 
 
+-. Ese error significa que el repositorio remoto (en GitHub) tiene commits que tú no tienes en tu copia local, así que Git no te deja hacer push porque podrías sobreescribir esos cambios.
+
+ERROR: https://github.com/Emmanuelvp88/Portafolio01.git
+ ! [rejected]        HEAD -> main (non-fast-forward)
+error: failed to push some refs to 'https://github.com/Emmanuelvp88/Portafolio01.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+CAUSA:
+
+Trabajaste desde otra computadora.
+Alguien más hizo cambios en el repositorio.
+O tú mismo hiciste cambios desde GitHub (como editar archivos directamente en la web).
+
+SOLUCION: Opción rápida y segura (sin sobrescribir nada): git pull origin main --rebase
+Eso trae los cambios del repositorio remoto y pone tus commits encima (como si hubieras trabajado después de esos cambios).
+
+Después de que eso termine bien, haces:
+
+git push origin main
+⚠️ ¿Y si no quieres rebase?
+También puedes hacer git pull sin rebase:git pull origin main
+Pero eso puede generar un commit de merge si hay diferencias, y tu historial se verá más desordenado. La opción --rebase es más limpia.
+
+
+❌ ¿Y si quieres ignorar los cambios del repo remoto?
+Si estás seguro de que quieres forzar tu versión, usa: git push origin main --force
+⚠️ Esto sobrescribe lo que haya en GitHub, así que ten cuidado. No se recomienda a menos que sepas exactamente lo que estás haciendo.
