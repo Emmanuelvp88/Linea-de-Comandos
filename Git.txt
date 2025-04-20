@@ -100,14 +100,29 @@
 ATENCION: Si utilizamos el comando (GIT RESET) y borramos un commit que alguien mas hizo o que se encuantre en otra rama nos meteremos en problemas al querer sincronizar nuestros repositorios remotos por que su repositorio  estarán adelantados con ese commit
 
 ---------------errores en Git-----------------
+-.Este error se soluciona con el siguiente comando, cuando no nos deja hacer un pull normal.
 
--.git pull origin master --allow-unrelated-histories  // este comendo se ejecuta cuando no nos deja hacer un pull normal y nos arroja el siguiente error.
-
-	$ git pull
+ERROR:  $ git pull
 	From https://github.com/Emmanuelvp88/Portfolio
 	 * [new branch]      prueba     -> origin/prueba
 	fatal: refusing to merge unrelated histories
 
+SOLUCION: git pull origin master --allow-unrelated-histories
+
+
+
+
+-.Ese error significa que el rebase se rompió o quedó en un estado extraño, posiblemente por algún error anterior o por haber modificado archivos internos de Git sin querer.
+
+
+ERROR:  warning: could not read '.git/rebase-merge/head-name': No such file or directory.
+
+Borrar la carpeta manualmente del rebase fallido:
+SOLUCION: rm -rf .git/rebase-merge
+
+Luego verifica que todo esté bien: git status
+
+Si todo está claro, puedes intentar de nuevo el rebase o hacer git pull normal (sin rebase): git pull origin main
 
 
 
