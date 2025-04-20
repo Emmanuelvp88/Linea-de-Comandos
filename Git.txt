@@ -10,7 +10,7 @@
 
 -.git commit -m "mensaje"  //Mandamos un commit con un mensaje Referencial de lo que queremos subir.
 
--.git branch -M main  //Nos aseguramos de que estos cambios que vamos a subir se valla a la rama que querramos, en este caso es la rama main.
+-.git branch -M main  //Nos aseguramos de que estos cambios que vamos a subir se valla a la rama que queremos, en este caso es la rama main.
 
 -.git remote add origin https://github.com/Emmanuelvp88/Curso-CSS.git  //Seleccionamos el link del repositorio remoto.
 
