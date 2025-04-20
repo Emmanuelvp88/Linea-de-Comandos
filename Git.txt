@@ -40,7 +40,7 @@
 
 -.git push --set-upstream origin "nombre de rama nueva"  //Subimos una nueva rama al repositorio remoto.
 
--.git checkout "nombre de rama"  //Cabiamos de rama, nos movemos de rama.
+-.git checkout "nombre de rama"  //Cabíamos de rama, nos movemos de rama.
 
 -.git branch -D "nombre de rama"  //Borrado forzoso de una rama local.
  
@@ -52,7 +52,7 @@
 
 -.git branch -m "nombre de rama que queremos cambiar nombre" "nombre nuevo de rama"  //Renombrar ramas locales.
 
--.git merge "nombre de rama a fusuinar"  //Fusionaos la rama que nombremos, con la rama donde estamos parados.
+-.git merge "nombre de rama a fusionar"  //Fusionaos la rama que nombremos, con la rama donde estamos parados.
 
 -.git pull  //Sirve para jalar todos los cambios remotos de todas las ramas al repo local.
 
@@ -66,9 +66,9 @@
 
 .-git log --oneline | cat //Nos muestra loscommit en una sola linea pero como contenido
 
--.git log --oneline --graph --decorate --all  //Nos muestra todoos los commit en una linea, con graficos y decorados.
+-.git log --oneline --graph --decorate --all  //Nos muestra todoos los commit en una linea, con gráficos y decorados.
 
--.git commit --allow-empty -m 'mensaje de commit'  //Nos deja mandar un commit vacio esto con el fin de subir una nueva rama.
+-.git commit --allow-empty -m 'mensaje de commit'  //Nos deja mandar un commit vacío esto con el fin de subir una nueva rama.
 
 -.git commit --amend -m "nuevo mensaje corregido"  //nos permite corregir el mensaje del commit anterior, solo funciona para el ultimo commit.
 
