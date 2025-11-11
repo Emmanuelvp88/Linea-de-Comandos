@@ -85,7 +85,7 @@
 
 -------------------- Comandos Delicados de Git ---------------------
 
-.-git checkout -- (nombre del archivo modificado) //Revierte los cambios "unstaged" de un archivo, elimina todos los cambios que hechos en un archivo antes de usar "add", ósea revierte los cambios localmente.
+.-git checkout --(nombre del archivo modificado) //Revierte los cambios "unstaged" de un archivo, elimina todos los cambios que hechos en un archivo antes de usar "add", ósea revierte los cambios localmente.
 
 .-git reset HEAD (nombre del archivo) //Regresa las modificaciones a "unstaged" 
 
@@ -94,6 +94,8 @@
 .-git reset --soft (# de commit) //nos permite regresar a ese commit pero conservando los cambios en "staging" de los otros commits.
 
 .-git reset --hard (# de commit) //Nos permite regresar a ese commit pero sin guardar ninguna modificación en  "staged" ni en "unstaged"  borra todo el rastro de los demás commits que estaban arriba del commit al que nos movimos.
+
+-.git retore (directorio/nnombre del archivo borrado) // Restaura el archivo borrado el tu repo local antes de que los subas a stagin o ayas agregado lois cambios con add
 
 ATENCION: Si utilizamos el comando (GIT RESET) y borramos un commit que alguien mas hizo o que se encuantre en otra rama nos meteremos en problemas al querer sincronizar nuestros repositorios remotos por que su repositorio  estarán adelantados con ese commit
 

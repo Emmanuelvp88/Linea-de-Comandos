@@ -1,4 +1,4 @@
-----------------Comandos Practicos Para el Ejecutor------------
+----------------Comandos Prácticos Para el Ejecutor------------
 
 
 
@@ -17,43 +17,43 @@ PERFMON:	Abre el monitor de rendimiento
 
 MAGNIFY:	Abre la herramienta Lupa
 OSK:		Abre el teclado virtual
-CALC:	Abre la calculadora
+CALC:		Abre la calculadora
 SNIPPINGTOOL:	Abre la herramienta de recortes
 NOTEPAD:	Abre el bloc de notas
-WRITE:	Abre el Wordpad
-TABTIP:	Abre el panel de escritura táctil de Windows
+WRITE:		Abre el Wordpad
+TABTIP:		Abre el panel de escritura táctil de Windows
 STIKYNOT:	Abre las notas rápidas
 WMPLAYER:	Abre el Reproductor de Windows Media
 DVDPLAY:	Abre el lector de DVD con Windows Media Player para su reproducción
-SNDVOL:	Abre el mezclador de volumen
+SNDVOL:		Abre el mezclador de volumen
 MSPAINT:	Abre la aplicación Paint
 IEXPLORE:	Abre el navegador Internet Explorer
 WINWORD:	Abre Microsoft Word en caso de tenerlo instalado
-EXCEL:	Abre Microsoft Excel en caso de tenerlo instalado
+EXCEL:		Abre Microsoft Excel en caso de tenerlo instalado
 MOVIEMK:	Abre Windows Movie Maker en caso de tenerlo instalado
-MSTSC:	Abre el asistente de conexión a un escritorio remoto de Windows
+MSTSC:		Abre el asistente de conexión a un escritorio remoto de Windows
 
 
 
 ******************Comandos para abrir utilidades de Windows**********************+
 
-CMD:	Abre el símbolo del sistema
+CMD:		Abre el símbolo del sistema
 TASKMGR:	Abre el administrador de tareas
 SERVICES.MSC:	Abre los servicios de Windows
 EXPLORER:	Abre el explorador de carpetas de Windows
 REGEDIT:	Abre el editor de registro del sistema
-MRT:	Abre la herramienta de eliminación de software malintencionado de Microsoft
+MRT:		Abre la herramienta de eliminación de software malintencionado de Microsoft
 IEXPRESS:	Abre la herramienta de creación de archivos autoextraíbles de Windows
-MSRA:	Abre el asistente de asistencia remota
-MSDT:	Abre la herramienta de diagnóstico para el soporte técnico. Requiere una clave suministrada por el centro de soporte
+MSRA:		Abre el asistente de asistencia remota
+MSDT:		Abre la herramienta de diagnóstico para el soporte técnico. Requiere una clave suministrada por el centro de soporte
 MDSCHED:	Abre el comprobador de errores de memoria en Windows
 EVENTVWR:	Abre el visor de eventos del sistema
-MBLCTR:	Abre el centro de movilidad de Windows. Solo disponible en equipos portátiles
+MBLCTR:		Abre el centro de movilidad de Windows. Solo disponible en equipos portátiles
 EUDCEDIT:	Abre la herramienta de edición de caracteres privados
 SIGVERIF:	Abre el centro de comprobación de firmas de los archivos de Windows
 CHARMAP:	Abre el mapa de caracteres
-WAB:	Abra la carpeta de contactos de Windows
-DIALER:	Abre el marcador de teléfono, útil cuando estamos en un dispositivo portátil
+WAB:		Abra la carpeta de contactos de Windows
+DIALER:		Abre el marcador de teléfono, útil cuando estamos en un dispositivo portátil
 FSQUIRT:	Abre el asistente de transferencia de archivos por Bluetooth
 IRPROPS.CPL:	Abre el dispositivo de infrarrojos que existe uno
 HDWWIZ.CPL:	Abre el asistente para agregar un nuevos dispositivos hardware
@@ -70,13 +70,20 @@ LOGOFF (CMD):	Ejecuta el comando para cerrar la sesión del usuario activo
 DISKPART:	Abre la herramienta de particiones y configuración de discos
 CHKDSK (CMD):	Ejecuta el comando de análisis y corrección de errores de discos duros
 SFC (CMD):	Ejecuta el comando de escaneo y reparación de archivos del sistema
-DEFRAG:	Abre la herramienta de optimización y desfragmentación de discos duros
+DEFRAG:		Abre la herramienta de optimización y desfragmentación de discos duros
 CLEANMGR:	Abre la herramienta para liberar espacio en el disco
 
 
+**************************Comandos de configuración de red*****************************
+
+NCPA.CPL	Abre las conexiones de red del panel de control
+INETCPL.CPL	Abre las propiedades de internet del panel de control
+IPCONFIG (CMD)	Abre la configuración e información de la red
+FIREWALL.CPL	Abre la configuración del Firewall de Windows
+WF.MSC	Abre la seguridad avanzada del Firewall
+
 *****************************Comandos de configuración*************************
 
-ncpa.cpl:  	Para abrir Panel de configuracion de red.
 CONTROL USERPASSWORDS:	Abre la ventana de configuración de cuentas de usuario del panel de control
 CONTROL:	Abre el panel de control
 CONTROL ADMINTOOLS:	Abre la carpeta de herramientas administrativas para Windows
@@ -111,7 +118,7 @@ MMC:		Abre una consola de configuración
 TPM.MSC:	Abre el administrador del módulo de plataforma segura en Windows
 UTILMAN:	Abre el administrador de utilidades de Windows
 CLICONFG:	Abre el administrador del comprobador de controlador
-SLUI:	Abre la configuración de activación de Windows
+SLUI:		Abre la configuración de activación de Windows
 VERIFIER:	Abre el administrador del comprobador de controladores
 MOBSYNC:	Abre en centro de sincronización
 REKEYWIZ:	Abre el asistente para la administración de certificados de cifrado de archivos

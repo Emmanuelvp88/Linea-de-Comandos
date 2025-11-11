@@ -1,0 +1,92 @@
+Navegar por ventanas y escritorios
+Mediante atajos de teclado Windows 10 podremos gestionar casi todo lo referente a ventanas y escritorio en nuestro sistema.
+
+Win + Ctrl + D: abre un nuevo escritorio virtual
+Win + Ctrl + F4: cierra un escritorio virtual
+Win + Ctrl + Izquierda: desplazamiento a otro escritorio a la izquierda
+Win + Ctrl + Derecha: desplazamiento a otro escritorio a la derecha
+Win + Tab: visualizamos todas las ventanas del escritorio actual y todos los escritorios. Para desplazarnos usamos las flechas.
+Alt + Tab: visualizamos un carrusel de todas las ventanas del escritorio activo. Para desplazarnos usamos las flechas.
+Win + Mayús + Izquierda / Derecha: movemos la ventana activa de un escritorio a otro
+Win + T: cambiar de ventana o aplicación de entre las que se encuentran activas y minimizadas en la barra de tareas. Por cada pulsación en T se selecciona la siguiente. Para aceptar una, pulsa “Enter”.
+
+Gestión de ventanas
+Atajos de teclado Windows 10 paso02
+
+Win + “,”: si dejamos pulsada la primera tecla las ventanas se esconderá para mostrar el escritorio.
+Win + D: se muestra el escritorio minimizando todas las ventanas existentes
+Ctrl + Mayús + M: restaura todas las ventanas a su posición después de la combinación anterior.
+Alt + F4: Cerrar ventana activa.
+Win + Arriba: maximiza la ventana activa
+Win + Abajo: minimiza la ventana activa
+Posicionamiento o “snap” de ventana activa
+Si estamos trabajando con Word por ejemplo podremos situar esta ventana en determinados lugares de nuestro escritorio mediante el teclado.
+
+Win + Izquierda / Derecha / Arriba / Abajo: posiciona la ventana activa en la mitad del cuadrante izquierdo / derecho / superior / inferior del escritorio.
+Para posicionar simultáneamente otra ventana junto a esta navegamos con las teclas de dirección sobre el resto de ventanas y pulsamos “Enter” sobre la que queramos
+
+Si pulsamos “Esc” solamente se hará snap sobre la ventana activa seleccionada.
+
+Exploración y uso del texto
+Atajos de teclado Windows 10 paso03
+
+También podremos explorar las carpetas y mover archivos y trozos de texto tanto del terminal símbolo del sistema como de cualquier editor de texto que utilicemos utilizando atajos de teclado Windows 10.
+
+Explorador de Windows
+Ctrl + N: abrimos una nueva ventana del explorador de archivos
+Crtl + N (dentro del explorador): creamos una nueva carpeta
+F2: renombramos el archivo que esté seleccionado
+Tab (mientras renombramos un archivo): pasamos al siguiente archivo para renombrarlo
+Win + E: abrimos el explorador de archivos
+Win + [tecla numérica]: abre una ventana que esté en la barra de tareas. El número será el lugar que ocupe ésta en la lista
+Alt + Arriba: salimos de directorio a un nivel superior en el explorador de archivos
+Alt + Izquierda: volver a la carpeta anterior en el explorador
+Alt + Derecha: ir a la carpeta siguiente en el explorador
+Ctrl + C: copiamos el elemento seleccionado
+Ctrl + V: pegamos el elemento almacenando en el portapapeles
+F4: despliega la barra de direcciones del explorador de archivos
+F5: actualizamos la pantalla
+Editor o introducción de texto
+Mayús + Izquierda / Derecha: seleccionar texto a la izquierda o derecha del cursor
+Ctrl Mayús + Izquierda / Derecha: seleccionar palabras de una sola vez en un texto
+Ctrl + Mayús + Arriba / Abajo: seleccionar bloques o párrafos de texto completos
+Seguro que te interesa nuestro último artículo sobre mejores atajos teclado en Google Docs.
+
+Abrir ventanas de opciones y menús contextuales
+Atajos de teclado Windows 10 paso04
+
+Mediante los atajos de teclado Windows 10 podremos abrir determinados menús contextuales y ventanas desde nuestro escritorio.
+
+Win: abre el menú inicio
+Win + I: abrimos la ventana de configuración del sistema
+Win + A: abrimos el centro de notificaciones de Windows
+Win + X: abrimos el menú de acceso rápido del menú inicio
+Win + L: ir a la pantalla de bloque e inicio de sesión de Windows
+Alt + F4: apagar el sistema
+Ctrl + Mayús + Esc: abrir el administrador de tareas
+Ctrl + Alt + Supr: abril la ventana de selección de opciones de sesión
+Win + R: abrimos la ventana de ejecución de comandos
+Win + Espacio: cambiar idioma del teclado. Cada vez que pulsemos Espacio cambiara de configuración a otra disponible.
+Mayús + Supr: borrar de forma definitiva el archivo seleccionado
+Windows + U: abrir panel de configuración de accesibilidad de Windows
+Alt + Enter: abrimos las propiedades de cualquier elemento seleccionado
+Win + “+”/”-“: entramos al modo lupa y podremos aumentar o disminuir el zoom de la pantalla
+Win+ W: abrimos el área de trabajo de Ink de Windows
+Cortana
+Win + S: abre el menú de inicio con Cortana, para introducir ordenes escritas
+Win + Q: abre el menú de inicio con Cortana, para introducir ordenes por voz
+Atajos para elementos multimedia
+Atajos de teclado Windows 10 paso05
+
+Mediante los atajos de teclado Windows 10 podremos realizar acciones como la grabación de nuestra pantalla, tomar instantáneas a ésta o cambiar de pantalla si tienes varias.
+
+Win + P: entramos al menú de cambio de pantalla en caso de tener varias
+ImprPant: sacar captura de pantalla completa de Windows
+Alt + ImprPant: sacar una captura de la ventana activa solamente
+Win + ImprPant: sacar captura de pantalla completa de Windows
+Win + G: accedemos al modo de captura de DVR de Xbox
+Win + Alt + ImprPant: sacar una captura de pantalla con la aplicación Xbox
+Win + Alt + G: iniciamos la grabación de la pantalla con la aplicación Xbox
+Win + Alt + R: detenemos la grabación con la aplicación Xbox
+Win + K: abrimos el menú de conexión de dispositivos inalámbricos
+
