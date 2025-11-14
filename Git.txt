@@ -52,7 +52,7 @@
 
 -.git branch -m "nombre de rama que queremos cambiar nombre" "nombre nuevo de rama"  //Renombrar ramas locales.
 
--.git merge "nombre de rama a fusionar"  //Fusionaos la rama que nombremos, con la rama donde estamos parados.
+-.git merge "nombre de rama a fusionar"  //Fusiona la rama que nombremos, con la rama donde estamos parados.
 
 -.git pull  //Sirve para jalar todos los cambios remotos de todas las ramas al repo local.
 
