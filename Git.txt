@@ -18,6 +18,9 @@
 
 -.git remote -v //Nos muestra el nombre del repositorio remoto con el que esta sincronizado nuestro repo local.
 
+.- git remote set-url origin  //enseguida ponemos la URL nueva que cambio cuando cambiamos el nombre del repositorio remoto, ya que     nuestro repositorio local sigue conectado a la URL anterior (La URL vieja)
+
+
 
 ----------Comandos basicos en Git------------
 -.touch "archivo.extencion" //Creamos diferentes tipos de archivos nuevos dependiendo su extencion
