@@ -1,0 +1,12 @@
+sc config LicenseManager start= auto & net start LicenseManager
+sc config wuauserv start= auto & net start wuauserv
+changepk.exe /productkey VK7JG-NPHTM-C97JM-9MPGT-3V66T
+exit
+
+win 11: VK7JG-NPHTM-C97JM-9MPGT-3V66T
+win 10:  W269N-WFGWX-YVC9B-4J6C9-T83GX
+
+
+slmgr /ipk VK7JG-NPHTM-C97JM-9MPGT-3V66T
+slmgr /skms kms.digiboy.ir      o      kms.msguides.com
+slmgr /ato

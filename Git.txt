@@ -8,21 +8,21 @@
 
 -.git add .  //Agregamos todos los cambios hechos a los archivos o archivos nuevos añadidos lo subimos a StagingArea.
 
--.git commit -m "mensaje"  //Mandamos un commit con un mensaje Referencial de lo que queremos subir.
+-.git commit -m "mensaje"  //Un commit es un mensaje Referencial de lo que queremos subir con todos los cambios echos, se recomienda ser lo mas espesifico y concreto posible.
 
 -.git branch -M main  //Nos aseguramos de que estos cambios que vamos a subir se valla a la rama que queremos, en este caso es la rama main.
 
--.git remote add origin https://github.com/Emmanuelvp88/Curso-CSS.git  //Seleccionamos el link del repositorio remoto.
+-.git remote add origin "URL"  //Seleccionamos la URL del repositorio remoto con el que queremos enlazar nuestro repositorio local.
 
 -.git push -u origin main  //Empujamos los cambios ya agregados y commiteados al repositorio remoto.
 
 -.git remote -v //Nos muestra el nombre del repositorio remoto con el que esta sincronizado nuestro repo local.
 
-.- git remote set-url origin  //enseguida ponemos la URL nueva que cambio cuando cambiamos el nombre del repositorio remoto, ya que     nuestro repositorio local sigue conectado a la URL anterior (La URL vieja)
+.- git remote set-url origin "URL nueva" // seguido de la URL nueva, esto se hace regularmente cuando cambiamos de repo remoto o le cambiamos el nombre del repo actual, ya que nuestro repositorio local sigue conectado a la URL anterior (La URL vieja).
 
 
 
-----------Comandos basicos en Git------------
+----------Comandos basicos en GitBash------------
 -.touch "archivo.extencion" //Creamos diferentes tipos de archivos nuevos dependiendo su extencion
 
 -.touch "Achivo.txt" && "archivo.html" && "archivo.css" && "archivo.js" //Podemos crear muchos archivos a la vez
@@ -67,7 +67,7 @@
 
 -.git log  //muestra todos los commit hechos
 
-.-git log --oneline | cat //Nos muestra loscommit en una sola linea pero como contenido
+.-git log --oneline | cat //Nos muestra los commit en una sola linea pero como contenido
 
 -.git log --oneline --graph --decorate --all  //Nos muestra todoos los commit en una linea, con gráficos y decorados.
 
